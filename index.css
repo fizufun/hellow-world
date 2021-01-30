@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.w{
+    margin: auto;
+    width: 1200px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clearfix:before,.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear:both;
+}
+.clearfix{
+    *zoom: 1;
+}
+
+
+
+
+
+body{
+    height: 3000px;
+    background-color: #f3f5f7;
+}
+.heard{
+    height: 42px;
+    padding: 29px 0;
+}
+.heard .imageH{
+    float: left;
+
+}
+.nav{
+    float: left;
+    margin-left: 30px;
+}
+.nav ul li{
+    height: 42px;
+    float: left;
+    margin: 0 15px;
+}
+.nav ul li a{
+    padding: 0 10px;
+    line-height: 42px;
+    color:#505050;
+    font-size: 18px;
+}
+.nav ul li:hover{
+    border-bottom: 2px solid skyblue;
+}
+.search{
+    float:left;
+    width: 412px;
+    height: 42px;
+    margin-left: 70px;
+}
+.search input{
+    float:left;
+    width: 345px;
+    height: 38px;
+    border:2px solid #00a4ff;
+    border-right:0;
+    padding-left: 15px;
+    font-size: 14px;
+    outline: none;
+}
+.search button{
+    float:left;
+    width: 50px;
+    height: 42px;
+    border: 0;
+    background-image: url(image/search1.png);
+}
+.user{
+    float:right;
+    height: 42px;
+    line-height: 42px;
+    margin-right: 30px;
+    color: #666;
+}
+.user img{
+    vertical-align: middle;
+}
+
+.banner1{
+    background-color: #033db2;
+    height: 420px;
+}
+.banner1 .w{
+    float: left;
+    background-image:url(image/banner1.png);
+    height: 420px;
+    background-repeat: no-repeat;
+    margin: 0 159px;
+}
+.subnav{
+    float: left;
+    width: 190px;
+    height: 420px;
+    background-color:rgba(0,0,0,.3);
+}
+.subnav ul li{
+    height: 45px;
+    line-height: 45px;
+    padding-left:20px;
+}
+.subnav ul li a{
+    color: #fff;
+}
+.subnav ul li a span{
+    float: right;
+    padding-right:10px ;
+}
+.subnav ul li a:hover{
+    color: skyblue;
+}/*这里在鼠标移动到空白处时，无反应*/
+
+.course{
+    float: right;
+    width: 230px;
+    height: 300px;
+    background-color: #fff;
+    margin-top:50px;
+}
+.course h2{
+    height:48px;
+    background-color: #9bceea;
+    text-align: center;
+    line-height:48px;
+    color: #fff;
+    font-size:18px;
+}
+.course .bd{
+    padding: 0 20px;
+}
+.bd ul li{
+    padding:14px 0;
+    border-bottom: 1px solid #ccc; 
+}
+.bd ul li h4{
+    color: #4e4e4e;
+    font-size: 16px;
+}
+.bd ul li p{
+    color: #a5a5a5;
+    font-size: 12px;
+}
+.bd .more{
+    display: block;
+    height: 38px;
+    border: 1px solid skyblue;
+    line-height: 38px;
+    text-align: center;
+    font-size: 16px;
+    color: skyblue;
+    margin-top:5px;
+    font-weight: 700;
+}
+.goods{
+    height: 60px;
+    box-shadow: 0 2px 3px 3px rgba(0,0,0,.1);
+    margin-top: 10px;
+    margin-left: 159px;
+    line-height: 60px;
+}
+.goods .cc1{
+    float: left;
+    margin:0 30px;
+    color: skyblue;
+}
+.goods ul{
+    float: left;
+}
+.goods ul li{
+    float: left;
+}
+.goods ul li a{
+    padding:0 30px;
+    font-size: 16px;
+    border-left: 1px solid #ccc;
+}
+.goods .a1{
+    float: right;
+    padding-right:30px ;
+    color: skyblue;
+    font-size: 16px;
+}
+
+.box{
+    margin-top: 35px;
+}
+.box-hd{
+    height: 42px;
+}
+.box-hd h3{
+    float: left;
+    font-weight:400;
+    font-size: 20px;
+}
+.box-hd a{
+    float: right;
+    padding-right: 20px;
+    padding-top:10px;
+    color:#666666;
+    font-size: 12px;
+}
+.box-bd ul{
+    width:1225px;
+}
+.box-bd ul li{
+    position: relative;
+    float: left;
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+    margin-right: 15px;
+    margin-bottom:15px;
+}
+.box-bd ul li em{
+    position: absolute;
+    top: 5px;
+    right: -4px;
+}
+.box-bd ul li>img{
+    width:100%;
+}
+.box-bd ul li p{
+    padding: 20px 20px 20px 25px;
+    font-size: 14px;
+}
+.bd-wenzi{
+    margin:0 20px 0px 25px;
+    font-size: 12px;
+    color: #999;
+}
+.bd-wenzi span{
+    color: #ff7c2d;
+} 
+
+.foot{
+    height: 418px;
+    background-color: #fff;
+}
+.foot .w{
+    height: 418px;
+}
+.boleft{
+    float: left; 
+}
+.boleft img{
+    padding-top: 34px;
+}
+.boleft p{
+    font-size: 12px;
+    padding: 25px 0px 18px 0px;
+
+}
+.boleft a{
+    display: inline-block;
+    width: 120px;
+    height: 34px;
+    font-size: 16px;
+    border: 2px solid #00a4ff;
+    text-align: center;
+    line-height: 34px;
+}
+.boright{
+    float: right;
+}
+.boright dl{
+    float: right;
+    margin: 33px 32px 0 114px;
+}
+.boright dl dt{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.boright dl dd a{
+    font-size: 12px;
+    color: #333;
+}
